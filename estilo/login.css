@@ -1,25 +1,12 @@
-
 @charset "utf-8";
-
-:root{     
-  --cor1: #1F4457; 
-  --cor2: #799DA9;
-  --cor3: #a6691f;
-  --cor4: #e2ba63; 
-  --cor5: #7bb716;
-  --cor6: #a27744;
-  --cor7: #0b6d8e; 
-  --cor8: #5785a8;
-  --cor9: #c6975d;
-  --cor10: #b5b5b5;
-  --cor11: #0479b44d;
-  --cor12: #f2d597;
-  --cor13: rgba(179, 10, 10);
-  /* falta declaração de fontes */
-  --fonte-padrao: arial, verdana, helvetica, sans-serif;
+:root{
+  --cor1: rgb(255, 205, 40);
+  --cor2: rgba(1, 30, 83, 0.8);
+  --cor3: rgb(6, 34, 196);
+  --cor4: #0b448e;
+  --cor5: rgb(9, 111, 179);
 }
 *{      
-
   margin: 0px;
   padding:0px;
 }
@@ -27,387 +14,27 @@ body{
   font-family: var(--fonte-padrao);
   background-image: url(../imagens/fundo.jpg);
   background-size: cover;
-  /*border-top: 15px solid rgba(1, 30, 83, 0.8);*/
   border-top: 0;
+  height: 100vh;
+}
+.root{
+  overflow-y: scroll;
+  height: 100%;
 }
 header{   
-  background-image:linear-gradient(to bottom, var(--cor7), var(--cor8), var(--cor2)) ;
-  background-image: url(../imagens/);
-
   text-align: center; 
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 30%;
-}
-header > h1{
-  color: rgb(255, 205, 40);       
-  font-family: "Reddit Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-size: 20vh;
-  text-shadow:2px 25px 9px rgb(9, 111, 179);
-}
-header > p{
-  color: #1F4457;
-  font-size: 1.2em;
-  padding-bottom: 20px;
-  padding-right: 10px;
-  padding-left: 10px
-}
-header > button{
-  background-color: rgb(255, 205, 40);
-  display: block;
-  border: none;
-  margin-left:92%;
-  width: 200px;
-  height: 40px;
-  font-size: 20px
-}
-header > button > a{
-  margin-left: 26px;
-  text-align: left;
-  display: flex;
-  text-decoration:none;
-  padding: 0px;
-}
-
-nav{
-  text-align: center;
-  background-color: rgb(255, 205, 40);
-  padding: 20px;
-  box-shadow: rgba(0, 0, 0, 0.363);
-}
-nav a{
-  text-align: right;
-  font-size: 25px;
-  color: #0b448e;
-  margin-right: 22vh;
-  text-decoration: none;
-  font-weight: bold;
-
-
-}
-nav a:hover{
-  color: rgb(6, 34, 196);
-  transition-duration: .5s;
-}
-main{
-  display: flex;
-  max-width: 95%;
-  margin: auto;
-  margin-bottom: 30px;
-  padding: 2px;
-  justify-content: center;
-
-
-
-}
-main p{
-  margin: 15px 0px;
-  text-align: justify;
-  text-indent: 30px;
-  line-height: 1em;
-  width: 100%;
-}
-main h1{
-  color: var(--cor3);
-  font-family: 'neon';
-  font-weight: bold;
-  font-size: 1.8em;
-}
-main#login{
-  margin:auto;
-  align-items: center;
-  justify-content:center ;
-  height: 300px;
-}
-main#login button{
-  background-color: var(--cor5);
-  padding: 3px;
-  border-radius: 4px;
-  margin: 5px;
-}
-main#login a{
-  text-decoration: none;
-  color: white;
-}
-#total{
-  display: flex;
-  border: 1px solid #38230a7e;
-  padding: 20px;
-  flex-direction: column;
-  align-items: center;
-  justify-content:space-evenly;
-  background-color: var(--cor2);
-  box-shadow: 2px 2px rgba(0, 0, 0, 0.13);
-  margin-top: 100x;
-}
-#total h2{
-  font-family: "Reddit Sans", sans-serif;
-  margin-bottom: 15px;
- font-size: 3em;
-}
-label{
-  margin:20px 10px;
-  color: white;
-  background-color: var(--cor5);
-  padding: 5px;
-  min-width: 50px;
-  font-weight: bold;
-  border-radius: 2px;
-  border:1px solid #38230a;
-}
-input{
-  margin: 08px 2px;
-  border-radius: 3px;
-  border: 2px solid #ccc; /* borda para simular um campo de texto */
-  padding: 5px; /* espaço interno para o texto */
-  text-align: justify; /* justifica o texto dentro do input */
-}
-#botoes{
-  display: flex;
-  justify-content:space-evenly;
-}
-
-article{
-  justify-content: space-around;
-  padding: 20px;
-  margin: 5px;
-  width: 96%;
-}
-article h1{
-  color: black;
-  text-shadow: 2px 2px 2px var(--cor5);
-  text-align: center;
-}
-article h2{
-  padding: 10px;
-  color: rgb(231, 231, 231);
-  background-color: rgba(1, 30, 83, 0.8);
-  
-
-}
-.vitrine{
-  margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  width: 95%;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: rgb(255, 255, 255, 0.8);
-}
-
-#p1{
-  padding-left: 10px;
-  font-weight: bolder;
-  font-size: 1.2em;
-  margin-bottom: 0px;
-  margin-top: 0px;
-} 
-#p2{
-  font-size: 12px;
-  margin-top: 0px;
-  margin-bottom: 6px;
-}
-#p3{
-  font-weight: bolder;
-  color:rgb(199, 67, 67);
-  margin-bottom: 4px;
-  margin-top: 0px;
-}
-.vitrine h6{
-  padding-left: 10px;
-  font-size: 14px
-}
-#oculosf1 {
-  display: flex;
-  width: 200px;
-  height: 200px;
-  background-image: url('../imagens/index/oculosf1.png');
-  box-shadow: 2px 2px 2px rgb(84, 127, 247);
-  margin-bottom: 30px;
-  height: 50vh;
-  width: 35vh;
-  padding: 10px;
-  justify-content: flex-end;
-  flex-direction: column;
-  align-items: center;
-  font-size:15px;
-  color: black;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-#oculosf1:hover{
-  background-image: url('../imagens/index/oculosl1.png');
-}
-
-#oculosf2 {
-  
-  display: flex;
-  width: 200px;
-  height: 200px;
-  background-image: url('../imagens/index/oculosf2.jpg');
-  box-shadow: 2px 2px 2px rgb(84, 127, 247);
-  height: 50vh;
-  width: 35vh;
-  margin-bottom: 30px;
-  padding: 10px;
-  justify-content: flex-end;
-  flex-direction: column;
-  align-items: center;
-  font-size:15px;
-  color: black;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-#oculosf2:hover{
-  background-image: url('../imagens/index/oculosl2.jpg');
-}
-#oculosf3 {
-  display: flex;
-  width: 200px;
-  height: 200px;
-  background-image: url('../imagens/index/oculosf3.jpg');
-  box-shadow: 2px 2px 2px rgb(84, 127, 247);
-  margin-bottom: 30px;
-  height: 50vh;
-  width: 35vh;
-  padding: 10px;
-  justify-content: flex-end;
-  flex-direction: column;
-  align-items: center;
-  font-size:15px;
-  color: black;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-#oculosf3:hover{
-  background-image: url('../imagens/index/oculosl3.jpg');
-}
-
-#oculosf4 {
-  display: flex;
-  width: 200px;
-  height: 200px;
-  background-image: url('../imagens/index/oculosescuros/oculosf4.jpg');
-  box-shadow: 2px 2px 2px rgb(84, 127, 247);
-  margin-bottom: 30px;
-  height: 50vh;
-  width: 35vh;
-  padding: 10px;
-  justify-content: flex-end;
-  flex-direction: column;
-  align-items: center;
-  font-size:15px;
-  color: black;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-#oculosf4:hover{
-  background-image: url('../imagens/index/oculosescuros/oculosl4.jpg');
-}
-#oculosf5 {
-  display: flex;
-  width: 200px;
-  height: 200px;
-  background-image: url('../imagens/index/oculosescuros/oculosf5.jpg');
-  box-shadow: 2px 2px 2px rgb(84, 127, 247);
-  margin-bottom: 30px;
-  height: 50vh;
-  width: 35vh;
-  padding: 10px;
-  justify-content: flex-end;
-  flex-direction: column;
-  align-items: center;
-  font-size:15px;
-  color: black;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-#oculosf5:hover{
-  background-image: url('../imagens/index/oculosescuros/oculosl5.jpg');
-}
-#oculosf6 {
-  display: flex;
-  width: 200px;
-  height: 200px;
-  background-image: url('../imagens/index/oculosescuros/oculosf6.jpg');
-  box-shadow: 2px 2px 2px rgb(84, 127, 247);
-  margin-bottom: 30px;
-  height: 50vh;
-  width: 35vh;
-  padding: 10px;
-  justify-content: flex-end;
-  flex-direction: column;
-  align-items: center;
-  font-size:15px;
-  color: black;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-#oculosf6:hover{
-  background-image: url('../imagens/index/oculosescuros/oculosl6.2.jpg');
-}
-
-footer{
-  margin-left: 30px;
-  display: flex;
-  color: rgb(0, 0, 0);
-  font-size: 15px;
-  padding: 5px;bl
-}
-footer a {
-  color:rgb(255, 222, 33);
-  font-weight: bolder;
-  text-decoration: none;
-  padding: 4px;
-
-}
-footer a:hover{
-  text-decoration: underline;
-  color:white;
-  background-color: var(--cor2);
-  transition-duration: .5s;
-}
-footer button{
-  display: inline-block;
-  background-color: var(--cor5);
-  margin-left: 10px;
-  padding: 4px;
-}
-footer p{
-  text-align: left;
-}
-.icone{
-  padding: 1px;
-}
-#end{
-  margin-bottom: 10px;
-  margin-left: 9px;
-}
-form h2{
-  text-align: center;
-  margin-bottom: 10px;
-  font-size: 50px;
-  margin-top: 20px;
-  font-family: 'neon';
-  color: black;
-}
-.grau{
-  background-color: white;
-  height: 400px
-
-}
-#botaohome{
-  text-align: left;
 }
 .nav2{
   display: flex;
   justify-content: end;
-  background-color: #0b448e;
+  background-color: var(--cor4);
   color: white;
   padding: 20px;
   text-decoration: none;
+}
+.nav2 a{
+  margin-left: 10px;
+  font-size: 22px;
 }
 ul{
   display: flex;
@@ -422,11 +49,122 @@ li a{
   font-family: "Reddit Sans", sans-serif;
   text-decoration: none;
   color: white;
-  
 }
-.nav2 a{
-  margin-left: 10px;
-  font-size: 22px;
+header > h1{
+  color: var(--cor1);       
+  font-family: "Reddit Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 20vh;
+  text-shadow:2px 25px 9px var(--cor5);
 }
+header > p{
+  color: WHITE;
+  font-size: 2em;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px
+}
+nav{
+  text-align: center;
+  background-color: rgb(255, 205, 40);
+  padding: 20px;
+}
+nav a{
+  text-align: right;
+  font-size: 25px;
+  color: var(--cor4);
+  margin-right: 22vh;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover{
+  color: var(--cor3);
+  transition-duration: .5s;
+}
+main{
+  padding: 20px;
+  margin: 5px;
+  width: 96%;
+}
+#h2{
+  flex-wrap: wrap;
+}
+main h2{
+  margin:15px 200px;
+  padding: 10px 50px;
+  color: rgb(231, 231, 231);
+  background-color: var(--cor2);
+  text-align: center;
+  font-size: 3em;
+  border-radius: 4px;
+}
+.vitrine{
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 65%;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 5px;
+  flex-shrink: 1;
+}
+label{
+  margin:20px 10px;
+  color: white;
+  background-color: var(--cor5);
+  padding: 5px;
+  min-width: 50px;
+  font-weight: bold;
+  border-radius: 2px;
+  border:1px solid #38230a;
+  font-size: 25px;
+}
+input{
+  margin: 08px 2px;
+  border-radius: 3px;
+  border: 2px solid #ccc; 
+  padding: 5px; 
+  text-align: justify; 
+  min-height: 33px;
+}
+#cadastro{
+  display: flex;
+  flex-wrap: wrap;
+}
+img{
+  max-width: 600px;
+}
+#right{
+  border: 2px solid #ccc;
+  padding: 10px 5px;
+  border-radius: 5px;
+  margin: 40px;
+  max-width: 350px;
+  height: 170px;
+  flex-wrap: wrap;
 
-
+}
+.dentro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer{
+  display: flex;
+  color:white;
+  font-size: 25px; 
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+footer p{
+  background-color: var(--cor2);
+  padding: 10px;
+  border-radius: 5px;
+}

@@ -35,131 +35,115 @@
       <a href="index.html">Início</a>        
       <a href="cadastro.html">Cadastro</a>
       <a href="cadastro.html">Promoções</a>
-      <a href="cadastro.html">Sorteios</a>
-      <a href="cadastro.html">Filiais</a>
     </nav>
-    
-    <div id="vendas">
-      <article>
-          <h2 id="h2.1">Cadastro:</h2>
-          <article class="vitrine">
-              <form>
-                <div>
-                  <h3>Informações Pessoais</h3>
-              </div>
-              <br>
-                  <div class="labeldiv">
-                      <label>Nome Completo</label> <input type="text"
-                      name="nome" id="idNome" placeholder="Digite seu nome" required
-                      minlength="15" maxlength="80">
-                  </div>
-                  <div class="labeldiv">
-                      <label>Data de Nascimento</label> <input type="date"
-                      name="dataNascimento" id="idDataNascimento" placeholder="Digite sua data de nascimento"
-                      required>
-                  </div>
-                  <div class="labeldiv">
-                      <label>Gênero</label>
-                      <select name="gen" id="gen">
-                        <option value="m">Masculino</option> 
-                        <option value="f">Feminino</option>   
-                        <option value="o">Outros</option>  
-                        <option value="n">Prefiro não Dizer</option>    
-                      </select>
-                  </div>
-                  <div class="labeldiv">
-                      <label>Nome da Mãe</label> <input type="text"
-                      name="nomeMae" id="idNomeMae"
-                      placeholder="Digite o nome da sua mãe"
-                      required minlength="15" maxlength="80">
-                  </div>
-                  <div class="labeldiv">
-                      <label>CPF</label> <input type="text"
-                      name="cpf" id="idCpf" placeholder="Digite seu CPF" required
-                      pattern="\d{3}.\d{3}.\d{3}-\d{2}"
-                      title="Digite o CPF no formato nnn.nnn.nnn-nn">
-                  </div>
-                  <div class="labeldiv">
-                      <label>E-Mail</label> <input type="email"
-                      name="email" id="idEmail" placeholder="Ex. joao@email.com"
-                      required minlength="1" maxlength="45">
-                  </div>
-          
-                  <div class="labeldiv">
-                      <label>Telefone Cel.</label> <input type="tel"
-                      name="telCel" placeholder="Ex. (99) 91234-5678"
-                      required minlength="1" maxlength="15"
-                      pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})"
-                      title="Digite o Tel. Cel no formato (99) 91234-5678">
-                  </div>
-          
-                  <div class="labeldiv">
-                      <label>Telefone Fixo</label> <input type="tel"
-                      name="telFixo" placeholder="Ex. (99) 1234-5678"
-                      required minlength="1" maxlength="14"
-                      pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$"
-                      title="Digite o Tel. Fixo no formato (99) 1234-5678">
-                  </div>
-                  <br>
-                  <div>
-                      <h3>Endereço Completo</h3>
-                  </div>
-                  <br>
-                  <div class="labeldiv">
-                      <label for="cep">CEP</label>
-                      <input type="text" id="cep" name="cep" required placeholder="Digite seu CEP" 
-                      pattern="[0-9]{5}-[0-9]{3}" title="Digite um CEP válido no formato 12345-678">
-                  </div>
-                  <div class="labeldiv">
-                      <label>Rua</label>
-                      <input name="rua" id="rua" minlength="1" maxlength="150" required
-                      placeholder="Ex. Rua das Margaridas, Esperança, Sorocaba, SP">
-                  </div>
-                  <div class="labeldiv">
-                      <label id="bairro">Bairro</label>
-                      <input name="bairro" id="bairro" cols="35" rows="7" minlength="1" maxlength="150" required
-                      placeholder="Ex. Rua das Margaridas, N 10, Bairro Jd. Esperança, Sorocaba, SP">
-                  </div>
-                  <div class="labeldiv">
-                      <label>Cidade</label>
-                      <input name="rua" id="rua" cols="35" rows="7" minlength="1" maxlength="150" required
-                      placeholder="Ex. Rua das Margaridas, N 10, Bairro Jd. Esperança, Sorocaba, SP">
-                  </div>
-                  <div class="labeldiv">
-                      <label>Login</label> <input type="text" name="login" id="idLogin" placeholder="Digite o seu Login"
-                      required minlength="6" maxlength="6" pattern="[a-z\s]+$"
-                      title="6 caracteres alfabéticos">
-                  </div>
-                  <div class="labeldiv">
-                      <label>Senha</label> <input type="password" name="senha" id="idSenha" placeholder="Digite sua senha"
-                      required minlength="8" maxlength="8" pattern="[a-z\s]+$"
-                      title="8 caracteres alfabéticos">
-                  </div>
-                  <div class="labeldiv">
-                      <label>Confirmação de Senha</label> <input type="password" name="confirmeSenha" id="idConfirmeSenha" placeholder="Confirme sua senha"
-                      required minlength="8" maxlength="8" pattern="[a-z\s]+$"
-                      title="8 caracteres alfabéticos">
-                  </div>
-                  <div class="labeldiv">
-                      <button id="botoes" type="submit" class="cadastro">Enviar</button>
-                      <button id="botoes" type="reset" class="cadastro">Limpar Tela</button>
-                  </div>    
-                </form>
-        </article>
-        <article class="vitrine">
-         
-          
-  
-          </article>
+    <main>
+      <h2 id="cadastro">Cadastro:</h2>
+      <article class="vitrine">
+        <form>
+          <div>
+            <h3>Informações Pessoais</h3>
+          </div>
+          <br>
+          <div class="labeldiv">
+            <label>Nome Completo</label> <input type="text"
+            name="nome" id="idNome" placeholder="Digite seu nome" required
+            minlength="15" maxlength="80">
+          </div>
+          <div class="labeldiv">
+            <label>Data de Nascimento</label> <input type="date"
+            name="dataNascimento" id="idDataNascimento" placeholder="Digite sua data de nascimento"
+            required>
+          </div>
+          <div class="labeldiv">
+            <label>Gênero</label>
+            <select name="gen" id="gen">
+              <option value="m">Masculino</option> 
+              <option value="f">Feminino</option>   
+              <option value="o">Outros</option>  
+              <option value="n">Prefiro não Dizer</option>    
+            </select>
+          </div>
+          <div class="labeldiv">
+            <label>Nome da Mãe</label> <input type="text"
+            name="nomeMae" id="idNomeMae"
+            placeholder="Digite o nome da sua mãe"
+            required minlength="15" maxlength="80">
+          </div>
+          <div class="labeldiv">
+            <label>CPF</label> <input type="text"
+            name="cpf" id="idCpf" placeholder="Digite seu CPF" required
+            pattern="\d{3}.\d{3}.\d{3}-\d{2}"
+            title="Digite o CPF no formato nnn.nnn.nnn-nn">
+          </div>
+          <div class="labeldiv">
+            <label>E-Mail</label> <input type="email"
+            name="email" id="idEmail" placeholder="Ex. joao@email.com"
+            required minlength="1" maxlength="45">
+          </div>
+          <div class="labeldiv">
+            <label>Telefone Cel.</label> <input type="tel"
+            name="telCel" placeholder="Ex. (99) 91234-5678"
+            required minlength="1" maxlength="15"
+            pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})"
+            title="Digite o Tel. Cel no formato (99) 91234-5678">
+          </div>
+          <div class="labeldiv">
+            <label>Telefone Fixo</label> <input type="tel"
+            name="telFixo" placeholder="Ex. (99) 1234-5678"
+            required minlength="1" maxlength="14"
+            pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$"
+            title="Digite o Tel. Fixo no formato (99) 1234-5678">
+          </div>
+          <br>
+          <div>
+            <h3>Endereço Completo</h3>
+          </div>
+          <br>
+          <div class="labeldiv">
+            <label for="cep">CEP</label>
+            <input type="text" id="cep" name="cep" required placeholder="Digite seu CEP" 
+            pattern="[0-9]{5}-[0-9]{3}" title="Digite um CEP válido no formato 12345-678">
+          </div>
+          <div class="labeldiv">
+            <label>Rua</label>
+            <input name="rua" id="rua" minlength="1" maxlength="150" required
+            placeholder="Ex. Rua das Margaridas, Esperança, Sorocaba, SP">
+          </div>
+          <div class="labeldiv">
+            <label id="bairro">Bairro</label>
+            <input name="bairro" id="bairro" cols="35" rows="7" minlength="1" maxlength="150" required
+            placeholder="Ex. Rua das Margaridas, N 10, Bairro Jd. Esperança, Sorocaba, SP">
+          </div>
+          <div class="labeldiv">
+            <label>Cidade</label>
+            <input name="rua" id="rua" cols="35" rows="7" minlength="1" maxlength="150" required
+            placeholder="Ex. Rua das Margaridas, N 10, Bairro Jd. Esperança, Sorocaba, SP">
+          </div>
+          <div class="labeldiv">
+            <label>Login</label> <input type="text" name="login" id="idLogin" placeholder="Digite o seu Login"
+            required minlength="6" maxlength="6" pattern="[a-z\s]+$"
+            title="6 caracteres alfabéticos">
+          </div>
+          <div class="labeldiv">
+            <label>Senha</label> <input type="password" name="senha" id="idSenha" placeholder="Digite sua senha"
+            required minlength="8" maxlength="8" pattern="[a-z\s]+$"
+            title="8 caracteres alfabéticos">
+          </div>
+          <div class="labeldiv">
+            <label>Confirmação de Senha</label> <input type="password" name="confirmeSenha" id="idConfirmeSenha" placeholder="Confirme sua senha"
+            required minlength="8" maxlength="8" pattern="[a-z\s]+$"
+            title="8 caracteres alfabéticos">
+          </div>
+          <div class="botoesdiv">
+              <button id="botoes" type="submit" class="cadastro">Enviar</button>
+              <button id="botoes" type="reset" class="cadastro">Limpar Tela</button>
+          </div>    
+        </form>
       </article>
-    </div>
+    </main>
     <footer>
-  
       <p> CEO TEAM: BRUNO CARVALHO, RAFAEL CAPUTO E YHURI GADELHA</p>
-  
-      <a class="icone"  href="https://www.facebook.com"><img src="../imagens/faceicone.png" alt="facebook icone"></a>
     </footer>
   </div>
-  
 </body>
 </html>

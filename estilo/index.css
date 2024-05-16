@@ -84,25 +84,32 @@ nav a:hover{
   transition-duration: .5s;
 }
 main{
-  justify-content: space-around;
   padding: 20px;
   margin: 5px;
   width: 96%;
+  
 }
 main h2{
-  margin-top: 15px;
-  padding: 10px;
+  margin: 20px;
+  padding: 10px 50px;
   color: rgb(231, 231, 231);
   background-color: var(--cor2);
+  text-align: left;
 }
 .vitrine{
-  margin-top: 20px;
+  margin:auto;
   display: flex;
   flex-wrap: wrap;
   width: 95%;
   justify-content: space-evenly;
   align-items: center;
   background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 25px;
+}
+.vitrine h6{
+  padding-left: 10px;
+  font-size: 14px
 }
 #p1{
   padding-left: 10px;
@@ -121,10 +128,6 @@ main h2{
   color:rgb(199, 67, 67);
   margin-bottom: 4px;
   margin-top: 0px;
-}
-.vitrine h6{
-  padding-left: 10px;
-  font-size: 14px
 }
 #oculosf1 {
   display: flex;
@@ -266,7 +269,6 @@ footer p{
   padding: 10px;
   border-radius: 5px;
 }
-
 
 
 
