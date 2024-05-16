@@ -11,7 +11,7 @@
   padding:0px;
 }
 body{   
-  font-family: var(--fonte-padrao);
+  font-family: "Reddit Sans", sans-serif;
   background-image: url(../imagens/fundo.jpg);
   background-size: cover;
   border-top: 0;
