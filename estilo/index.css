@@ -132,7 +132,7 @@ main h2{
   display: flex;
   width: 200px;
   height: 200px;
-  background-image: url('../imagens/index/oculosf1.png');
+  background-image: url('../imagens/oculosf1.png');
   box-shadow: 2px 2px 2px rgb(84, 127, 247);
   margin-bottom: 30px;
   height: 50vh;
@@ -147,13 +147,13 @@ main h2{
   background-repeat: no-repeat;
 }
 #oculosf1:hover{
-  background-image: url('../imagens/index/oculosl1.png');
+  background-image: url('../imagens/oculosl1.png');
 }
 #oculosf2 {
   display: flex;
   width: 200px;
   height: 200px;
-  background-image: url('../imagens/index/oculosf2.jpg');
+  background-image: url('../imagens/oculosf2.jpg');
   box-shadow: 2px 2px 2px rgb(84, 127, 247);
   height: 50vh;
   width: 35vh;
@@ -168,13 +168,13 @@ main h2{
   background-repeat: no-repeat;
 }
 #oculosf2:hover{
-  background-image: url('../imagens/index/oculosl2.jpg');
+  background-image: url('../imagens/oculosl2.jpg');
 }
 #oculosf3 {
   display: flex;
   width: 200px;
   height: 200px;
-  background-image: url('../imagens/index/oculosf3.jpg');
+  background-image: url('../imagens/oculosf3.jpg');
   box-shadow: 2px 2px 2px rgb(84, 127, 247);
   margin-bottom: 30px;
   height: 50vh;
@@ -189,13 +189,13 @@ main h2{
   background-repeat: no-repeat;
 }
 #oculosf3:hover{
-  background-image: url('../imagens/index/oculosl3.jpg');
+  background-image: url('../imagens/oculosl3.jpg');
 }
 #oculosf4 {
   display: flex;
   width: 200px;
   height: 200px;
-  background-image: url('../imagens/index/oculosescuros/oculosf4.jpg');
+  background-image: url('../imagens/oculosf4.jpg');
   box-shadow: 2px 2px 2px rgb(84, 127, 247);
   margin-bottom: 30px;
   height: 50vh;
@@ -210,13 +210,13 @@ main h2{
   background-repeat: no-repeat;
 }
 #oculosf4:hover{
-  background-image: url('../imagens/index/oculosescuros/oculosl4.jpg');
+  background-image: url('../imagens/oculosl4.jpg');
 }
 #oculosf5 {
   display: flex;
   width: 200px;
   height: 200px;
-  background-image: url('../imagens/index/oculosescuros/oculosf5.jpg');
+  background-image: url('../imagens/oculosf5.jpg');
   box-shadow: 2px 2px 2px rgb(84, 127, 247);
   margin-bottom: 30px;
   height: 50vh;
@@ -231,13 +231,13 @@ main h2{
   background-repeat: no-repeat;
 }
 #oculosf5:hover{
-  background-image: url('../imagens/index/oculosescuros/oculosl5.jpg');
+  background-image: url('../imagens/oculosl5.jpg');
 }
 #oculosf6 {
   display: flex;
   width: 200px;
   height: 200px;
-  background-image: url('../imagens/index/oculosescuros/oculosf6.jpg');
+  background-image: url('../imagens/oculosf6.jpg');
   box-shadow: 2px 2px 2px rgb(84, 127, 247);
   margin-bottom: 30px;
   height: 50vh;
@@ -252,7 +252,7 @@ main h2{
   background-repeat: no-repeat;
 }
 #oculosf6:hover{
-  background-image: url('../imagens/index/oculosescuros/oculosl6.2.jpg');
+  background-image: url('../imagens/oculosl6.2.jpg');
 }
 footer{
   display: flex;
