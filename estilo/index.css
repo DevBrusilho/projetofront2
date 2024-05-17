@@ -28,7 +28,6 @@ header{
 .nav2{
   display: flex;
   justify-content: end;
-  background-color: var(--cor4);
   color: white;
   padding: 20px;
   text-decoration: none;

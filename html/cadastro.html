@@ -11,31 +11,48 @@
 <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+      <link rel="stylesheet" href="./../estilo/navbar.css">
 </head>
 <body>
   <div class="root">
     <header>
-      <section class="nav2">
-        <ul>
-          <li><span class="material-icons">
-            favorite
-            </span><a href="">Lista de desejos</a></li>
-          <li><span class="material-icons">
-            shopping_cart
-            </span><a href="">Carrinho</a></li>
-          <li><span class="material-icons">
-            login
-            </span><a href="login.html">Entrar</a></li>
-        </ul>
-      </section>
+      <div class="navbar">
+        <a href="#home">Inicio</a>
+        <div class="subnav">
+          <button class="subnavbtn">Sobre <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="#company">Empresa</a>
+            <a href="#team">Time</a>
+            <a href="#careers">Carreiras</a>
+          </div>
+        </div>
+        <div class="subnav">
+          <button class="subnavbtn">Contatos <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="#link1">Link 1</a>
+            <a href="#link2">Link 2</a>
+            <a href="#link3">Link 3</a>
+            <a href="#link4">Link 4</a>
+          </div>
+        </div>
+        <section class="nav2">
+          <ul>
+            <li>
+              <a href="" class="bnt-nav"><span class="material-icons">favorite</span>Lista de desejos</a>
+            </li>
+            <li>
+              <a href="" class="bnt-nav"><span class="material-icons">shopping_cart</span>Carrinho</a>
+            </li>
+            <li>
+              <a href="login.html" class="bnt-nav"><span class="material-icons">login</span>Entrar</a>
+            </li>
+          </ul>
+        </section>
+      </div>
       <h1>VisionTech™</h1>
       <p>Para sua visão e autoestima: para sua vida</p>
     </header>
-    <nav class="menu2">
-      <a href="index.html">Início</a>        
-      <a href="cadastro.html">Cadastro</a>
-      <a href="cadastro.html">Promoções</a>
-    </nav>
+    
     <main>
       <h2 id="cadastro">Cadastro:</h2>
       <article class="vitrine">
