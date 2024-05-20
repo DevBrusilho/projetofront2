@@ -82,6 +82,13 @@ nav a:hover{
   color: var(--cor3);
   transition-duration: .5s;
 }
+#lupa{
+  margin-right: 350px;
+}
+span{
+  color: white;
+  margin-right: 20px;
+}
 main{
   padding: 20px;
   margin: 5px;
@@ -256,7 +263,7 @@ main h2{
 footer{
   display: flex;
   color:white;
-  font-size: 25px; 
+  font-size: 15px; 
   padding: 5px;
   text-align: center;
   justify-content: center;

@@ -83,20 +83,25 @@ nav a:hover{
   color: var(--cor3);
   transition-duration: .5s;
 }
+#lupa{
+  margin-right: 350px;
+}
+span{
+  color: white;
+  margin-right: 20px;
+}
 main{
   padding: 20px;
   margin: 5px;
   width: 96%;
 }
 main h2{
-  margin:15px 200px;
-  padding: 10px 50px;
-  color: rgb(231, 231, 231);
-  background-color: var(--cor2);
+  margin:auto;
+  padding: 15px;
+  color: black;
   text-align: center;
   font-size: 3em;
-  border-radius: 4px;
-  width: 20%;
+  width: fit-content;
 }
 .vitrine{
   margin:auto;
@@ -112,13 +117,10 @@ main h2{
 }
 label{
   margin:20px 10px;
-  color: white;
-  background-color: var(--cor5);
+  color: black;
   padding: 5px;
   width: 30%;
   font-weight: bold;
-  border-radius: 2px;
-  border:1px solid #38230a;
   font-size: 25px;
 }
 input{
@@ -144,22 +146,44 @@ img{
   padding: 10px 5px;
   border-radius: 5px;
   width: 48%;
-  height: 170px;
   overflow: visible;
   margin: auto;
-
 }
 .dentro{
   display: flex;
   justify-content: center;
   align-items: center;
-  
-
+}
+#botoes{
+  font-size: large;
+  padding: 6px;
+  margin: 10px;
+  border-radius: 4px;
+}
+#botoes:hover{
+  background-color: #1f1e1e85;
+  color: aliceblue;
+}
+.dentro a {
+  text-decoration: none;
+  color: var(--cor1);
+  padding: 8px;
+  border: 2px solid #ccc;
+  background-color: #04152b9d;
+  border-radius: 4px;
+}
+.dentro a:hover{
+  text-decoration: underline;
+  color: white;
+  background-color: var(--cor2);
+  padding: 8px;
+  border-radius: 2px;
+  transition: 0.3;
 }
 footer{
   display: flex;
   color:white;
-  font-size: 25px; 
+  font-size: 15px; 
   padding: 5px;
   text-align: center;
   justify-content: center;

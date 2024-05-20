@@ -81,12 +81,19 @@ nav a:hover{
   color: var(--cor3);
   transition-duration: .5s;
 }
+#lupa{
+  margin-right: 350px;
+}
+span{
+  color: white;
+  margin-right: 20px;
+}
 #cadastro{
  text-align: left;
  font-weight: bolder;
  font-size: 50px;
  padding: 15px;
- margin-left: 660px;
+ margin-left: 350px;
 }
 form h3{
   font-size: 2em;
@@ -135,7 +142,7 @@ input{
 footer{
   display: flex;
   color:white;
-  font-size: 25px; 
+  font-size: 15px; 
   padding: 5px;
   text-align: center;
   justify-content: center;
